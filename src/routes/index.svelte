@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+import Leaderboard from "$lib/Leaderboard.svelte";
+
+</script>
+<h2>Leaderboard</h2>
+<Leaderboard />
